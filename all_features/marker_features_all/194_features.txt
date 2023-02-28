@@ -1,0 +1,289 @@
+f-10
+cell_id
+ORF
+Name
+Allele
+Strain ID
+Plate
+Row
+Column
+ImageNumber
+ObjectNumber
+
+cut -d "," -f-54 <Marker>_all_CP.csv > <Marker>_AreaShape_features.csv
+Cells_AreaShape_Area
+Cells_AreaShape_Compactness
+Cells_AreaShape_Eccentricity
+Cells_AreaShape_Extent
+Cells_AreaShape_FormFactor
+Cells_AreaShape_MajorAxisLength
+Cells_AreaShape_MaxFeretDiameter
+Cells_AreaShape_MaximumRadius
+Cells_AreaShape_MeanRadius
+Cells_AreaShape_MedianRadius
+Cells_AreaShape_MinFeretDiameter
+Cells_AreaShape_MinorAxisLength
+Cells_AreaShape_Perimeter
+Cells_AreaShape_Solidity
+Cells_AreaShape_Zernike_0_0
+Cells_AreaShape_Zernike_1_1
+Cells_AreaShape_Zernike_2_0
+Cells_AreaShape_Zernike_2_2
+Cells_AreaShape_Zernike_3_1
+Cells_AreaShape_Zernike_3_3
+Cells_AreaShape_Zernike_4_0
+Cells_AreaShape_Zernike_4_2
+Cells_AreaShape_Zernike_4_4
+Cells_AreaShape_Zernike_5_1
+Cells_AreaShape_Zernike_5_3
+Cells_AreaShape_Zernike_5_5
+Cells_AreaShape_Zernike_6_0
+Cells_AreaShape_Zernike_6_2
+Cells_AreaShape_Zernike_6_4
+Cells_AreaShape_Zernike_6_6
+Cells_AreaShape_Zernike_7_1
+Cells_AreaShape_Zernike_7_3
+Cells_AreaShape_Zernike_7_5
+Cells_AreaShape_Zernike_7_7
+Cells_AreaShape_Zernike_8_0
+Cells_AreaShape_Zernike_8_2
+Cells_AreaShape_Zernike_8_4
+Cells_AreaShape_Zernike_8_6
+Cells_AreaShape_Zernike_8_8
+Cells_AreaShape_Zernike_9_1
+Cells_AreaShape_Zernike_9_3
+Cells_AreaShape_Zernike_9_5
+Cells_AreaShape_Zernike_9_7
+Cells_AreaShape_Zernike_9_9
+
+cut -d "," -f-10,55-64 <Marker>_all_CP.csv > <Marker>_Granularity_features.csv
+Cells_Granularity_10_GFP
+Cells_Granularity_1_GFP
+Cells_Granularity_2_GFP
+Cells_Granularity_3_GFP
+Cells_Granularity_4_GFP
+Cells_Granularity_5_GFP
+Cells_Granularity_6_GFP
+Cells_Granularity_7_GFP
+Cells_Granularity_8_GFP
+Cells_Granularity_9_GFP
+
+cut -d "," -f-10,65-94 <Marker>_all_CP.csv > <Marker>_Intensity_features.csv
+Cells_Intensity_IntegratedIntensityEdge_GFP
+Cells_Intensity_IntegratedIntensityEdge_RFP
+Cells_Intensity_IntegratedIntensity_GFP
+Cells_Intensity_IntegratedIntensity_RFP
+Cells_Intensity_LowerQuartileIntensity_GFP
+Cells_Intensity_LowerQuartileIntensity_RFP
+Cells_Intensity_MADIntensity_GFP
+Cells_Intensity_MADIntensity_RFP
+Cells_Intensity_MassDisplacement_GFP
+Cells_Intensity_MassDisplacement_RFP
+Cells_Intensity_MaxIntensityEdge_GFP
+Cells_Intensity_MaxIntensityEdge_RFP
+Cells_Intensity_MaxIntensity_GFP
+Cells_Intensity_MaxIntensity_RFP
+Cells_Intensity_MeanIntensityEdge_GFP
+Cells_Intensity_MeanIntensityEdge_RFP
+Cells_Intensity_MeanIntensity_GFP
+Cells_Intensity_MeanIntensity_RFP
+Cells_Intensity_MedianIntensity_GFP
+Cells_Intensity_MedianIntensity_RFP
+Cells_Intensity_MinIntensityEdge_GFP
+Cells_Intensity_MinIntensityEdge_RFP
+Cells_Intensity_MinIntensity_GFP
+Cells_Intensity_MinIntensity_RFP
+Cells_Intensity_StdIntensityEdge_GFP
+Cells_Intensity_StdIntensityEdge_RFP
+Cells_Intensity_StdIntensity_GFP
+Cells_Intensity_StdIntensity_RFP
+Cells_Intensity_UpperQuartileIntensity_GFP
+Cells_Intensity_UpperQuartileIntensity_RFP
+
+cut -d "," -f-10,95-142 <Marker>_all_CP.csv > <Marker>_RadialDistribution_features.csv
+Cells_RadialDistribution_FracAtD_GFP_1of4
+Cells_RadialDistribution_FracAtD_GFP_2of4
+Cells_RadialDistribution_FracAtD_GFP_3of4
+Cells_RadialDistribution_FracAtD_GFP_4of4
+Cells_RadialDistribution_FracAtD_RFP_1of4
+Cells_RadialDistribution_FracAtD_RFP_2of4
+Cells_RadialDistribution_FracAtD_RFP_3of4
+Cells_RadialDistribution_FracAtD_RFP_4of4
+Cells_RadialDistribution_MeanFrac_GFP_1of4
+Cells_RadialDistribution_MeanFrac_GFP_2of4
+Cells_RadialDistribution_MeanFrac_GFP_3of4
+Cells_RadialDistribution_MeanFrac_GFP_4of4
+Cells_RadialDistribution_MeanFrac_RFP_1of4
+Cells_RadialDistribution_MeanFrac_RFP_2of4
+Cells_RadialDistribution_MeanFrac_RFP_3of4
+Cells_RadialDistribution_MeanFrac_RFP_4of4
+Cells_RadialDistribution_RadialCV_GFP_1of4
+Cells_RadialDistribution_RadialCV_GFP_2of4
+Cells_RadialDistribution_RadialCV_GFP_3of4
+Cells_RadialDistribution_RadialCV_GFP_4of4
+Cells_RadialDistribution_RadialCV_RFP_1of4
+Cells_RadialDistribution_RadialCV_RFP_2of4
+Cells_RadialDistribution_RadialCV_RFP_3of4
+Cells_RadialDistribution_RadialCV_RFP_4of4
+Cells_RadialDistribution_ZernikeMagnitude_GFP_0_0
+Cells_RadialDistribution_ZernikeMagnitude_GFP_1_1
+Cells_RadialDistribution_ZernikeMagnitude_GFP_2_0
+Cells_RadialDistribution_ZernikeMagnitude_GFP_2_2
+Cells_RadialDistribution_ZernikeMagnitude_GFP_3_1
+Cells_RadialDistribution_ZernikeMagnitude_GFP_3_3
+Cells_RadialDistribution_ZernikeMagnitude_GFP_4_0
+Cells_RadialDistribution_ZernikeMagnitude_GFP_4_2
+Cells_RadialDistribution_ZernikeMagnitude_GFP_4_4
+Cells_RadialDistribution_ZernikeMagnitude_GFP_5_1
+Cells_RadialDistribution_ZernikeMagnitude_GFP_5_3
+Cells_RadialDistribution_ZernikeMagnitude_GFP_5_5
+Cells_RadialDistribution_ZernikeMagnitude_RFP_0_0
+Cells_RadialDistribution_ZernikeMagnitude_RFP_1_1
+Cells_RadialDistribution_ZernikeMagnitude_RFP_2_0
+Cells_RadialDistribution_ZernikeMagnitude_RFP_2_2
+Cells_RadialDistribution_ZernikeMagnitude_RFP_3_1
+Cells_RadialDistribution_ZernikeMagnitude_RFP_3_3
+Cells_RadialDistribution_ZernikeMagnitude_RFP_4_0
+Cells_RadialDistribution_ZernikeMagnitude_RFP_4_2
+Cells_RadialDistribution_ZernikeMagnitude_RFP_4_4
+Cells_RadialDistribution_ZernikeMagnitude_RFP_5_1
+Cells_RadialDistribution_ZernikeMagnitude_RFP_5_3
+Cells_RadialDistribution_ZernikeMagnitude_RFP_5_5
+
+cut -d "," -f-10,143- <Marker>_all_CP.csv > <Marker>_Texture_features.csv
+Cells_Texture_AngularSecondMoment_GFP_8_00
+Cells_Texture_AngularSecondMoment_GFP_8_01
+Cells_Texture_AngularSecondMoment_GFP_8_02
+Cells_Texture_AngularSecondMoment_GFP_8_03
+Cells_Texture_Contrast_GFP_8_00
+Cells_Texture_Contrast_GFP_8_01
+Cells_Texture_Contrast_GFP_8_02
+Cells_Texture_Contrast_GFP_8_03
+Cells_Texture_Correlation_GFP_8_00
+Cells_Texture_Correlation_GFP_8_01
+Cells_Texture_Correlation_GFP_8_02
+Cells_Texture_Correlation_GFP_8_03
+Cells_Texture_DifferenceEntropy_GFP_8_00
+Cells_Texture_DifferenceEntropy_GFP_8_01
+Cells_Texture_DifferenceEntropy_GFP_8_02
+Cells_Texture_DifferenceEntropy_GFP_8_03
+Cells_Texture_DifferenceVariance_GFP_8_00
+Cells_Texture_DifferenceVariance_GFP_8_01
+Cells_Texture_DifferenceVariance_GFP_8_02
+Cells_Texture_DifferenceVariance_GFP_8_03
+Cells_Texture_Entropy_GFP_8_00
+Cells_Texture_Entropy_GFP_8_01
+Cells_Texture_Entropy_GFP_8_02
+Cells_Texture_Entropy_GFP_8_03
+Cells_Texture_InfoMeas1_GFP_8_00
+Cells_Texture_InfoMeas1_GFP_8_01
+Cells_Texture_InfoMeas1_GFP_8_02
+Cells_Texture_InfoMeas1_GFP_8_03
+Cells_Texture_InfoMeas2_GFP_8_00
+Cells_Texture_InfoMeas2_GFP_8_01
+Cells_Texture_InfoMeas2_GFP_8_02
+Cells_Texture_InfoMeas2_GFP_8_03
+Cells_Texture_InverseDifferenceMoment_GFP_8_00
+Cells_Texture_InverseDifferenceMoment_GFP_8_01
+Cells_Texture_InverseDifferenceMoment_GFP_8_02
+Cells_Texture_InverseDifferenceMoment_GFP_8_03
+Cells_Texture_SumAverage_GFP_8_00
+Cells_Texture_SumAverage_GFP_8_01
+Cells_Texture_SumAverage_GFP_8_02
+Cells_Texture_SumAverage_GFP_8_03
+Cells_Texture_SumEntropy_GFP_8_00
+Cells_Texture_SumEntropy_GFP_8_01
+Cells_Texture_SumEntropy_GFP_8_02
+Cells_Texture_SumEntropy_GFP_8_03
+Cells_Texture_SumVariance_GFP_8_00
+Cells_Texture_SumVariance_GFP_8_01
+Cells_Texture_SumVariance_GFP_8_02
+Cells_Texture_SumVariance_GFP_8_03
+Cells_Texture_Variance_GFP_8_00
+Cells_Texture_Variance_GFP_8_01
+Cells_Texture_Variance_GFP_8_02
+Cells_Texture_Variance_GFP_8_03
+
+
+cut -d "," -f-54 Cdc11_all_CP.csv > Cdc11_AreaShape_features.csv
+cut -d "," -f-10,55-64 Cdc11_all_CP.csv > Cdc11_Granularity_features.csv
+cut -d "," -f-10,65-94 Cdc11_all_CP.csv > Cdc11_Intensity_features.csv
+cut -d "," -f-10,95-142 Cdc11_all_CP.csv > Cdc11_RadialDistribution_features.csv
+cut -d "," -f-10,143- Cdc11_all_CP.csv > Cdc11_Texture_features.csv
+
+cut -d "," -f-54 Nuf2_all_CP.csv > Nuf2_AreaShape_features.csv
+cut -d "," -f-10,55-64 Nuf2_all_CP.csv > Nuf2_Granularity_features.csv
+cut -d "," -f-10,65-94 Nuf2_all_CP.csv > Nuf2_Intensity_features.csv
+cut -d "," -f-10,95-142 Nuf2_all_CP.csv > Nuf2_RadialDistribution_features.csv
+cut -d "," -f-10,143- Nuf2_all_CP.csv > Nuf2_Texture_features.csv
+
+
+cut -d "," -f-54 Om45_all_CP.csv > Om45_AreaShape_features.csv
+cut -d "," -f-10,55-64 Om45_all_CP.csv > Om45_Granularity_features.csv
+cut -d "," -f-10,65-94 Om45_all_CP.csv > Om45_Intensity_features.csv
+cut -d "," -f-10,95-142 Om45_all_CP.csv > Om45_RadialDistribution_features.csv
+cut -d "," -f-10,143- Om45_all_CP.csv > Om45_Texture_features.csv
+
+
+cut -d "," -f-54 Pil1_all_CP.csv > Pil1_AreaShape_features.csv
+cut -d "," -f-10,55-64 Pil1_all_CP.csv > Pil1_Granularity_features.csv
+cut -d "," -f-10,65-94 Pil1_all_CP.csv > Pil1_Intensity_features.csv
+cut -d "," -f-10,95-142 Pil1_all_CP.csv > Pil1_RadialDistribution_features.csv
+cut -d "," -f-10,143- Pil1_all_CP.csv > Pil1_Texture_features.csv
+
+
+cut -d "," -f-54 Psr1_all_CP.csv > Psr1_AreaShape_features.csv
+cut -d "," -f-10,55-64 Psr1_all_CP.csv > Psr1_Granularity_features.csv
+cut -d "," -f-10,65-94 Psr1_all_CP.csv > Psr1_Intensity_features.csv
+cut -d "," -f-10,95-142 Psr1_all_CP.csv > Psr1_RadialDistribution_features.csv
+cut -d "," -f-10,143- Psr1_all_CP.csv > Psr1_Texture_features.csv
+
+
+cut -d "," -f-54 Rad52_all_CP.csv > Rad52_AreaShape_features.csv
+cut -d "," -f-10,55-64 Rad52_all_CP.csv > Rad52_Granularity_features.csv
+cut -d "," -f-10,65-94 Rad52_all_CP.csv > Rad52_Intensity_features.csv
+cut -d "," -f-10,95-142 Rad52_all_CP.csv > Rad52_RadialDistribution_features.csv
+cut -d "," -f-10,143- Rad52_all_CP.csv > Rad52_Texture_features.csv
+
+
+cut -d "," -f-54 Sac6_all_CP.csv > Sac6_AreaShape_features.csv
+cut -d "," -f-10,55-64 Sac6_all_CP.csv > Sac6_Granularity_features.csv
+cut -d "," -f-10,65-94 Sac6_all_CP.csv > Sac6_Intensity_features.csv
+cut -d "," -f-10,95-142 Sac6_all_CP.csv > Sac6_RadialDistribution_features.csv
+cut -d "," -f-10,143- Sac6_all_CP.csv > Sac6_Texture_features.csv
+
+
+cut -d "," -f-54 Sec21_all_CP.csv > Sec21_AreaShape_features.csv
+cut -d "," -f-10,55-64 Sec21_all_CP.csv > Sec21_Granularity_features.csv
+cut -d "," -f-10,65-94 Sec21_all_CP.csv > Sec21_Intensity_features.csv
+cut -d "," -f-10,95-142 Sec21_all_CP.csv > Sec21_RadialDistribution_features.csv
+cut -d "," -f-10,143- Sec21_all_CP.csv > Sec21_Texture_features.csv
+
+
+cut -d "," -f-54 Sec7_all_CP.csv > Sec7_AreaShape_features.csv
+cut -d "," -f-10,55-64 Sec7_all_CP.csv > Sec7_Granularity_features.csv
+cut -d "," -f-10,65-94 Sec7_all_CP.csv > Sec7_Intensity_features.csv
+cut -d "," -f-10,95-142 Sec7_all_CP.csv > Sec7_RadialDistribution_features.csv
+cut -d "," -f-10,143- Sec7_all_CP.csv > Sec7_Texture_features.csv
+
+
+cut -d "," -f-54 Snf7_all_CP.csv > Snf7_AreaShape_features.csv
+cut -d "," -f-10,55-64 Snf7_all_CP.csv > Snf7_Granularity_features.csv
+cut -d "," -f-10,65-94 Snf7_all_CP.csv > Snf7_Intensity_features.csv
+cut -d "," -f-10,95-142 Snf7_all_CP.csv > Snf7_RadialDistribution_features.csv
+cut -d "," -f-10,143- Snf7_all_CP.csv > Snf7_Texture_features.csv
+
+
+cut -d "," -f-54 Spf1_all_CP.csv > Spf1_AreaShape_features.csv
+cut -d "," -f-10,55-64 Spf1_all_CP.csv > Spf1_Granularity_features.csv
+cut -d "," -f-10,65-94 Spf1_all_CP.csv > Spf1_Intensity_features.csv
+cut -d "," -f-10,95-142 Spf1_all_CP.csv > Spf1_RadialDistribution_features.csv
+cut -d "," -f-10,143- Spf1_all_CP.csv > Spf1_Texture_features.csv
+
+
+cut -d "," -f-54 Vph1_R1_CP.csv > Vph1_AreaShape_features.csv
+cut -d "," -f-10,55-64 Vph1_R1_CP.csv > Vph1_Granularity_features.csv
+cut -d "," -f-10,65-94 Vph1_R1_CP.csv > Vph1_Intensity_features.csv
+cut -d "," -f-10,95-142 Vph1_R1_CP.csv > Vph1_RadialDistribution_features.csv
+cut -d "," -f-10,143- Vph1_R1_CP.csv > Vph1_Texture_features.csv
+--------------------------------------------------------------------------------
