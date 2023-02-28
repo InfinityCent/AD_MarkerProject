@@ -1,0 +1,25 @@
+terms = c("G1/S and G2/M cell cycle progression/meiosis",
+          "polarity/morphogenesis/cytokenesis/endocytosis/exocytosis",
+
+          "chromatin/transcription",
+          "chromosome segregation/kinetochore/spindle/microtubule",
+          "DNA replication/repair/HR/cohesion",
+          "RNA processing",
+
+          "ribosome/translation and tRNA processing",
+          "amino acid biosynth&transport/nitrogen utilization",
+          "proteosome/protein degradation/ER-dependent protein folding/degradation",
+
+          "drug/ion transport/plasma membrane pumps",
+          "ER<->Golgi traffic/ER translocation",
+          "Golgi<->endosome<->vacuole<->plasma membrane/intra-golgi transport/vatpase",
+          "lipid/sterol/fatty acid biosynth & transport",
+          "nuclear-cytoplasic transport",
+
+          "autophagy/CVT",
+          "glycosylation/GPI anchor/cell wall",
+          "metabolism/mitochondria",
+          "peroxisome",
+          "signaling/stress response",
+
+          "multi-functional could not assign to specific terms")
